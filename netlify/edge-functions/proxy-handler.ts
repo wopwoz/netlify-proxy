@@ -27,7 +27,7 @@ const PROXY_CONFIG = {
   "/hf": "https://huggingface.co",
   "/tv": "https://tv.gally.ddns-ip.net",
   "/news": "https://newsnow-ahm.pages.dev",
-  "/ecaigong": process.env.ECAIGONG_URL
+  "/ecaigong": Deno.env.get("ECAIGONG_URL")
 };
 
 // 需要修复路径的内容类型
