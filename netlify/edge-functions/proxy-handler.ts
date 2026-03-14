@@ -28,7 +28,8 @@ const PROXY_CONFIG = {
   "/tv": "https://tv.gally.ddns-ip.net",
   "/news": "https://newsnow-ahm.pages.dev",
   "/ecaigong": Deno.env.get("ECAIGONG_URL"),
-  "/zipai": "https://zipai-online.vercel.app"
+  "/zipai": "https://zipai-online.vercel.app",
+  "/linux": "https://linux.do"
 };
 
 // 需要修复路径的内容类型
